@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Design</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: gray;
+
+        }
+
+        .nav {
+
+            height: 80px;
+            width: 100%;
+            margin-top: 0px;
+            background-color: aquamarine;
+            position: sticky;
+            top: 0;
+        }
+
+        .mainm {
+            margin: 20px 20px;
+            border: 1px solid black;
+            height: 120vh;
+            background-color: palevioletred;
+            display: flex;
+
+        }
+
+        .box {
+            border: 1px solid black;
+            margin: 40px 10%;
+            height: 80%;
+            width: 30%;
+        }
+
+        .box1 {
+            background-color: green;
+        }
+
+        .box2 {
+            background-color: blue;
+        }
+
+        article {
+            margin: 10px 20%;
+            display: flex;
+        }
+
+
+        article p:first-child {
+            text-align: center;
+            background-color: brown;
+            box-sizing: border-box;
+            border: 1px solid black;
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        article .hellp {
+            border: 1PX solid black;
+            background-color: yellow;
+            text-align: center;
+            padding: 10px;
+            margin-left: 10px;
+            height: 20px;
+            border-radius: 50px;
+            position: fixed;
+            top: 95vh;
+            left: 95vw;
+
+        }
+
+        footer {
+
+            height: 40px;
+            background-color: darkcyan;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav"></div>
+        <main class="mainm">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+        </main>
+        <article>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet voluptatem sed distinctio sapiente eos
+                unde necessitatibus nulla exercitationem libero cupiditate. Vel, cumque doloribus. Voluptatem, repellat.
+                At molestias velit aspernatur ea?</p>
+            <p class="hellp"> Help </p>
+        </article>
+
+        <footer></footer>
+    </div>
+
+</body>
+
+</html>
